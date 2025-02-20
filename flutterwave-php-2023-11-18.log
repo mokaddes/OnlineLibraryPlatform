@@ -1,0 +1,6 @@
+[2023-11-18T11:16:00.998733+00:00] Flutterwave/PHP.NOTICE: Subscription Service::Retrieving all Subscriptions. [] []
+[2023-11-18T11:17:46.636439+00:00] Flutterwave/PHP.NOTICE: Payment Plan Service::Retrieving all Plans. [] []
+[2023-11-18T11:18:20.308893+00:00] Flutterwave/PHP.NOTICE: Subscription Service::Activating a Subscriptions [60167]. [] []
+[2023-11-18T11:28:27.596720+00:00] Flutterwave/PHP.NOTICE: Subscription Service::Activating a Subscriptions [60167]. [] []
+[2023-11-18T11:29:20.422709+00:00] Flutterwave/PHP.NOTICE: Subscription Service::Activating a Subscriptions [60167]. [] []
+[2023-11-18T11:30:42.357543+00:00] Flutterwave/PHP.NOTICE: Subscription Service::Activating a Subscriptions [60167]. [] []

@@ -1,0 +1,7 @@
+{
+    "type": "https:\/\/mailchimp.com\/developer\/marketing\/docs\/errors\/",
+    "title": "Invalid Resource",
+    "status": 400,
+    "detail": "telisu@mailinator.com looks fake or invalid, please enter a real email address.",
+    "instance": "9c4a5d33-a94e-737c-e4d1-27e4b5b0a31a"
+}

@@ -1,0 +1,121 @@
+.nav-badge {
+    font-size: 0.3rem;
+    font-weight: 300;
+    padding: 0px 2px;
+    position: absolute;
+    right: 13px;
+    top: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+    .sidebar {
+        background: #FAFAFA
+    }
+}
+
+i.fas.fa-angle-left.right {
+    padding-top: 10px;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+}
+/* body::before {
+    content: '';
+    z-index: 9999;
+    background: #FF11FF08;
+    border-radius: 50%;
+    position: absolute;
+    width: 572px;
+    height: 572px;
+    top: -34px;
+    left: -77px;
+    border-radius: 286px;
+    box-shadow: 0 0 20px 10px #FF11FF08;
+    
+} */
+
+#custom_btn,
+#updateButton {
+    background: #800080;
+}
+
+.sidebar .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #FAFAFA !important;
+    color: #7C8DB5;
+}
+
+aside {
+    border-right: 1px solid #E2E2E2;
+
+}
+
+.sidebar {
+    background: #FAFAFA;
+    padding: 0px !important;
+
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #800080 !important;
+    background: none;
+    border-right: 4px solid #800080;
+}
+
+.nav-sidebar .nav-item>.nav-link {
+    position: relative;
+    width: 100%;
+    padding: 10px 22px;
+    border-radius: 0px !important;
+    color: #7C8DB5;
+    background: #ffffff00 !important;
+    font-size: 15px;
+    border-bottom: none !important;
+
+}
+
+
+.nav-sidebar .nav-link>.right,
+.nav-sidebar .nav-link>p>.right {
+    position: absolute;
+    right: 1rem;
+    top: 0px;
+}
+
+.nav-sidebar>.nav-item.menu-open>.nav-link,
+.nav-sidebar>.nav-item:hover>.nav-link,
+.nav-sidebar>.nav-item>.nav-link:focus {
+    background-color: #FAFAFA !important;
+    color: #7C8DB5;
+}
+
+ul.nav.nav-treeview.menu-open {
+    width: 90%;
+    margin: auto;
+}
+
+.nav-sidebar>.nav-item>.nav-link.active>i {
+    color: #800080 !important;
+    box-shadow: none;
+}
+
+.nav-treeview>.nav-item>.nav-link.active,
+.nav-treeview>.nav-item>.nav-link.active:focus,
+.nav-treeview>.nav-item>.nav-link.active:hover {
+    background-color: #FAFAFA !important;
+    color: #7C8DB5;
+    border-radius: 0px !important;
+}
+
+.brand-link {
+    border: none !important;
+}
+
+.brand-link {
+    background: #FAFAFA;
+    text-align: center;
+}
+

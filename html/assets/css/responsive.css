@@ -1,0 +1,172 @@
+@media screen and (min-width:1200px) {}
+
+@media screen and (max-width:1399px) {
+    .banner-content h2 {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .main-menu .nav-link {
+        font-size: 14px;
+        margin: 0px 14px !important;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .header_sec {
+        padding: 5px 0px;
+    }
+
+    .mobile_nav .nav-link {
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        padding: 13px 0px !important;
+        color: var(--bg-black);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        position: relative;
+        margin: 0px 22px;
+    }
+
+    .mobile_nav .nav-link:hover {
+        color: var(--bg-primary) !important;
+    }
+
+    .mobile_nav .offcanvas {
+        width: 280px !important;
+        border: none !important;
+        background: #f4edf4;
+    }
+
+    .offcanvas-header .btn-close {
+        outline: none;
+        box-shadow: none !important;
+    }
+
+    .banner-section {
+        padding-top: 40px;
+        ;
+    }
+
+}
+
+@media screen and (max-width:776px) {
+    .banner-content h2 {
+        font-size: 40px;
+        letter-spacing: 8px;
+    }
+
+    .premium_content h4 {
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (min-width: 576px) {
+    .footer_logo {
+        margin: auto;
+        flex-shrink: 0;
+        position: absolute;
+        top: -31px;
+        right: 0;
+        left: 0;
+    }
+
+}
+
+
+@media screen and (max-width:575px) {
+
+    .banner-content h2 {
+        font-size: 28px;
+        letter-spacing: 6px;
+    }
+
+    .section_heading h4 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .book_of_month img {
+        transform: translate(21px, 20px);
+    }
+
+    .banner-content .btn {
+        font-size: 13px;
+    }
+
+    .right-side-menu .nav-link {
+        font-size: 0px;
+        width: 45px;
+        height: 45px;
+        text-align: center !important;
+        padding: 0px 15px !important;
+        border-radius: 50px !important;
+        background: #80008026;
+    }
+
+    .category_item .category_name a {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 20px 0px;
+    }
+
+    .breadcrumb-item h4 {
+        font-size: 18px;
+    }
+
+    .image-wrap {
+        opacity: .2;
+    }
+
+    .premium_content h4 {
+        font-size: 20px;
+    }
+
+    .premium_content p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .banner-content .btn_primary {
+        margin-bottom: 10px !important;
+    }
+
+    .banner-content .btn {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .book_of_month img {
+        transform: translate(6px, 11px);
+    }
+
+    .social_login a {
+        font-size: 0px;
+        background: transparent !important;
+        display: inline;
+    }
+
+    .media-body,
+    .media-left {
+        display: block;
+        vertical-align: top;
+        text-align: center;
+    }
+
+    .post-comments .media .media-left:after {
+        display: none;
+    }
+}
