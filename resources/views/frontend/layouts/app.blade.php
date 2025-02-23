@@ -13,11 +13,11 @@
     <meta name="author" content="Md. Mokaddes Hosain, Md. Rabin Mia">
     <meta property="fb:app_id" content="{{ '100087492087217' }}" />
     <meta name="robots" content="index,follow">
-    <meta name="Developed By" content="Arobilo Limited" />
+    <meta name="Developed By" content="Md. Mokaddes Hosain" />
     <meta name="Developer" content="Md. Mokaddes Hosain" />
     <meta property="og:image:width" content="700" />
     <meta property="og:image:height" content="400" />
-    <meta property="og:site_name" content="{{ $setting->site_name ?? 'TCLI Library' }}" />
+    <meta property="og:site_name" content="{{ $setting->site_name ?? 'Online Library' }}" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:type" content="WEBSITE" />
     <meta name="csrf-token" id="csrf-token" content="{{ csrf_token() }}">
@@ -86,6 +86,10 @@
             border-radius: 8px;
             border: 1px solid #ebeef7;
             width: 170px;
+        }
+        .navbar-brand img{
+            width: 160px;
+            height: 80px;
         }
     </style>
     @stack('style')
